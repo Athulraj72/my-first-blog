@@ -1,0 +1,21 @@
+# Python
+*.pyc
+*~
+__pycache__/
+
+# Env
+.env
+myvenv/
+venv/
+
+# Database
+db.sqlite3
+
+# Static folder at project root
+/static/
+
+# **PyCharm Specific Ignore Files**
+.idea/                  # Project settings directory (PyCharm stores config here)
+*.iml                   # IntelliJ Module Files (not needed for Git)
+out/                    # PyCharm output folders
+__pycache__/            # Redundant Python cache files
